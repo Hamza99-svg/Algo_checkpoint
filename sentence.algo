@@ -1,0 +1,24 @@
+ALGORITHM algorithm_name
+VAR
+    VAR sentence : STRING:="";
+VAR  character: CHAR;
+VAR Y,X,Z : INTEGER;
+BEGIN
+    WHILE (character<>".") DO
+ Write('enter the character ')
+        Read(character)
+         FOR i FROM 0 TO character.length DO
+            X++
+        END_FOR
+        IF (c=" ") THEN
+            Y++
+        END_IF
+        IF (character="a" or character="e" or character="o" or character="u" or character="i" or character="y" ) THEN
+            Z++
+        END_IF
+END_WHILE
+ Write('sentence c`est :'character)
+ Write('le number de character est : 'X)
+ Write('le number de vowels est : 'Y)
+ Write('le number de word c est : 'Z)
+END
